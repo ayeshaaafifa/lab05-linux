@@ -1,0 +1,15 @@
+total 56
+drwxr-x--- 8 ayeshaaafifa ayeshaaafifa 4096 Oct 16 06:46 .
+drwxr-xr-x 3 root         root         4096 Oct  6 08:10 ..
+-rw------- 1 ayeshaaafifa ayeshaaafifa 2334 Oct 10 15:21 .bash_history
+-rw-r--r-- 1 ayeshaaafifa ayeshaaafifa  220 Feb 13  2026 .bash_logout
+-rw-r--r-- 1 ayeshaaafifa ayeshaaafifa 3771 Feb 13  2026 .bashrc
+drwx------ 2 ayeshaaafifa ayeshaaafifa 4096 Oct  6 17:52 .cache
+-rw-rw-r-- 1 ayeshaaafifa ayeshaaafifa  190 Oct 10 07:07 .gitconfig
+-rw------- 1 ayeshaaafifa ayeshaaafifa   20 Oct 16 06:41 .lesshst
+drwx------ 3 ayeshaaafifa ayeshaaafifa 4096 Oct 10 06:59 .local
+-rw-r--r-- 1 ayeshaaafifa ayeshaaafifa  807 Feb 13  2026 .profile
+drwx------ 2 ayeshaaafifa ayeshaaafifa 4096 Oct 16 06:38 .ssh
+drwxrwxr-x 3 ayeshaaafifa ayeshaaafifa 4096 Oct 10 09:14 Assignment01
+drwxrwxr-x 3 ayeshaaafifa ayeshaaafifa 4096 Oct 10 06:35 Gitea
+drwxrwxr-x 5 ayeshaaafifa ayeshaaafifa 4096 Oct 16 06:48 lab05-linux
