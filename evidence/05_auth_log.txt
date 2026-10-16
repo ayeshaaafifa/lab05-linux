@@ -1,0 +1,43 @@
+2026-10-16T08:13:27.871143+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa/lab05-linux ; USER=root ; COMMAND=/usr/sbin/adduser lab5user
+2026-10-16T08:13:28.043864+00:00 ubuntu groupadd[39207]: group added to /etc/group: name=lab5user, GID=1001
+2026-10-16T08:13:28.046963+00:00 ubuntu groupadd[39207]: group added to /etc/gshadow: name=lab5user
+2026-10-16T08:13:28.050401+00:00 ubuntu groupadd[39207]: new group: name=lab5user, GID=1001
+2026-10-16T08:13:28.092448+00:00 ubuntu useradd[39212]: new user: name=lab5user, UID=1001, GID=1001, home=/home/lab5user, shell=/bin/bash, from=/dev/pts/0
+2026-10-16T08:15:49.189039+00:00 ubuntu passwd[39223]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-16T08:16:14.275240+00:00 ubuntu chfn[39236]: changed user 'lab5user' information
+2026-10-16T08:16:16.406967+00:00 ubuntu gpasswd[39245]: members of group users set by root to ayeshaaafifa,lab5user
+2026-10-16T08:19:20.709584+00:00 ubuntu unix_chkpwd[39306]: password check failed for user (lab5user)
+2026-10-16T08:19:20.713340+00:00 ubuntu su: pam_unix(su-l:auth): authentication failure; logname=ayeshaaafifa uid=1000 euid=0 tty=/dev/tty1 ruser=ayeshaaafifa rhost=  user=lab5user
+2026-10-16T08:19:22.983003+00:00 ubuntu su[39304]: FAILED SU (to lab5user) ayeshaaafifa on tty1
+2026-10-16T08:20:57.584609+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa/lab05-linux ; USER=root ; COMMAND=/usr/bin/passwd lab5user
+2026-10-16T08:21:51.434597+00:00 ubuntu passwd[39332]: pam_unix(passwd:chauthtok): password changed for lab5user
+2026-10-16T08:22:35.356380+00:00 ubuntu su[39359]: (to lab5user) ayeshaaafifa on tty1
+2026-10-16T08:22:35.363115+00:00 ubuntu su[39359]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by ayeshaaafifa(uid=1000)
+2026-10-16T08:23:17.134949+00:00 ubuntu su[39359]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T08:24:29.135811+00:00 ubuntu unix_chkpwd[39477]: password check failed for user (lab5user)
+2026-10-16T08:24:29.138737+00:00 ubuntu su: pam_unix(su-l:auth): authentication failure; logname=ayeshaaafifa uid=1000 euid=0 tty=/dev/tty1 ruser=ayeshaaafifa rhost=  user=lab5user
+2026-10-16T08:24:31.103955+00:00 ubuntu su[39474]: FAILED SU (to lab5user) ayeshaaafifa on tty1
+2026-10-16T08:24:46.621984+00:00 ubuntu su[39488]: (to lab5user) ayeshaaafifa on tty1
+2026-10-16T08:24:46.631068+00:00 ubuntu su[39488]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by ayeshaaafifa(uid=1000)
+2026-10-16T08:26:22.519728+00:00 ubuntu su[39488]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T08:30:59.523209+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T08:31:59.285990+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T08:34:11.881417+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa/lab05-linux ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T08:38:07.429485+00:00 ubuntu su[39731]: (to lab5user) ayeshaaafifa on tty1
+2026-10-16T08:38:07.437796+00:00 ubuntu su[39731]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by ayeshaaafifa(uid=1000)
+2026-10-16T08:40:15.256365+00:00 ubuntu su[39731]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T08:40:58.247561+00:00 ubuntu su[39856]: (to lab5user) ayeshaaafifa on tty1
+2026-10-16T08:40:58.259574+00:00 ubuntu su[39856]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by ayeshaaafifa(uid=1000)
+2026-10-16T08:45:35.007893+00:00 ubuntu su[39856]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T08:46:38.130139+00:00 ubuntu su[40171]: (to lab5user) ayeshaaafifa on tty1
+2026-10-16T08:46:38.140951+00:00 ubuntu su[40171]: pam_unix(su-l:session): session opened for user lab5user(uid=1001) by ayeshaaafifa(uid=1000)
+2026-10-16T08:47:09.240262+00:00 ubuntu su[40171]: pam_unix(su-l:session): session closed for user lab5user
+2026-10-16T08:48:13.553012+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T08:49:13.693434+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
+2026-10-16T08:52:53.417158+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa ; USER=root ; COMMAND=/usr/sbin/deluser --remove-home lab5user
+2026-10-16T08:52:54.831484+00:00 ubuntu userdel[40355]: delete user 'lab5user'
+2026-10-16T08:52:54.835871+00:00 ubuntu userdel[40355]: delete 'lab5user' from group 'users'
+2026-10-16T08:52:54.838991+00:00 ubuntu userdel[40355]: removed group 'lab5user' owned by 'lab5user'
+2026-10-16T08:52:54.840144+00:00 ubuntu userdel[40355]: removed shadow group 'lab5user' owned by 'lab5user'
+2026-10-16T08:52:54.840833+00:00 ubuntu userdel[40355]: delete 'lab5user' from shadow group 'users'
+2026-10-16T08:53:32.034358+00:00 ubuntu sudo: ayeshaaafifa : TTY=/dev/tty1 ; PWD=/home/ayeshaaafifa ; USER=root ; COMMAND=/usr/bin/grep lab5user /var/log/auth.log
